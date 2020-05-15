@@ -15,7 +15,7 @@ nav ul li a:after {transform: translateX(-50%) scaleX(0);-webkit-transform: tran
 }
 .nav-link:hover{
     transform: scale(1.2);-webkit-animation: rotation 0.5s linear;
-    color:orangered;transition;
+    color:orangered;
 }
 /* .nav-link:after{
     transform: translateX(-50%) scaleX(0);-webkit-transform: translateX(-50%) scaleX(0);-webkit-transform-origin: 50% 50%;transition: transform 250ms;}
