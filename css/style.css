@@ -1,1 +1,22 @@
+.left img:hover{transform: scale(1.2);-webkit-animation: rotation 0.5s linear;}
+nav ul li a {color:black;}
+.nav-items:hover {transform: scale(1.2);-webkit-animation: rotation 0.5s linear;}
+nav ul li a:hover{color:orangered;transition: .9s;}
+nav ul li a:after {transform: translateX(-50%) scaleX(0);-webkit-transform: translateX(-50%) scaleX(0);-webkit-transform-origin: 50% 50%;transition: transform 250ms;}
+.col-md-4:hover{box-shadow:10px 14px 18px -6px rgba(0,255,0,0.3);cursor: pointer;color:green;}
+.leafff{right: 170px;top: -25px;}
 .image{right: 80px; bottom: 10px;}
+.img{margin-left: 135px;}
+.nav-link:focus{
+    color:black;
+}
+.nav-link {
+    color:black;
+}
+.nav-link:hover{
+    transform: scale(1.2);-webkit-animation: rotation 0.5s linear;
+    color:orangered;transition;
+}
+/* .nav-link:after{
+    transform: translateX(-50%) scaleX(0);-webkit-transform: translateX(-50%) scaleX(0);-webkit-transform-origin: 50% 50%;transition: transform 250ms;}
+} */
