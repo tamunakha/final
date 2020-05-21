@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <title>final project cafe</title>
 </head>
 <body>
@@ -18,8 +19,8 @@
                     </a>
                 </div>
                 <div class="right">
-                    <nav> 
-                        <ul class="d-flex font-weight-bold">
+                    <nav class="nav-box"> 
+                        <ul class="d-flex font-weight-bold ">
                             <li class="nav-items active list-unstyled mr-5">
                                 <a class="text-decoration-none hover-active-color-orangered " href="#">Home</a>
                             </li>
@@ -39,10 +40,44 @@
                             </li>
                         </ul>                           
                     </nav>
+                    <!--Navbar-->
+<nav class="navbar navbar-light light-blue lighten-4 navv text-right">
+    <a class="navbar-brand" href="#"></a>
+    <!-- Collapse button -->
+    <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1"
+      aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"><span class="dark-blue-text"><i
+          class="fas fa-bars fa-1x"></i></span></button>
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+      <!-- Links -->
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Menu</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Service</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Sign in</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+                <i class="fas fa-shopping-bag"></i>
+            </a>
+          </li>  
+      </ul>
+      <!-- Links -->
+    </div>
+    <!-- Collapsible content -->
+  </nav>
+  <!--/.Navbar-->
                 </div>
             </div>
             <div class="row mt-5">
-                <div class=" col-md-6 col-sm-12 mt-5 p-5">
+                <div class=" col-md-6 col-sm-12 mt-5">
                     <h2 class="mt-5 display-4 font-weight-bold">All in Good Taste</h2>
                     <h2 class="display-4 font-weight-bold mb-4">Food With Figo.</h2>
                     <p class="mb-0">Quickly predominate standard compliant architecture</p>
@@ -60,7 +95,7 @@
                       </form>
                 </div>
                 <div class="col-md-6 col-sm-12"> 
-                    <img src="photo/pizza.jpg" alt="pizza">
+                    <img class="w-100" src="photo/pizza.jpg" alt="pizza">
                 </div>
             </div>
         </div>  

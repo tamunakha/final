@@ -7,16 +7,29 @@ nav ul li a:after {transform: translateX(-50%) scaleX(0);-webkit-transform: tran
 .leafff{right: 170px;top: -25px;}
 .image{right: 80px; bottom: 10px;}
 .img{margin-left: 135px;}
-.nav-link:focus{
-    color:black;
+.nav-link:focus{color:black;}
+.nav-link {color:black;}
+.nav-link:hover{transform: scale(1.2);-webkit-animation: rotation 0.5s linear;color:orangered;}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {color:black;}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link:hover {transform: scale(1.2);-webkit-animation: rotation 0.5s linear;color:orangered;}
+.navv{
+    display: none;
 }
-.nav-link {
-    color:black;
-}
-.nav-link:hover{
-    transform: scale(1.2);-webkit-animation: rotation 0.5s linear;
-    color:orangered;
-}
-/* .nav-link:after{
-    transform: translateX(-50%) scaleX(0);-webkit-transform: translateX(-50%) scaleX(0);-webkit-transform-origin: 50% 50%;transition: transform 250ms;}
-} */
+.fa-1x {
+    font-size: 1.5rem;
+    }
+    .navbar-toggler.toggler-example {
+    cursor: pointer;
+    }
+    .dark-blue-text {
+    color: #0A38F5;
+    }
+    .dark-pink-text {
+    color: #AC003A;
+    }
+    .dark-amber-text {
+    color: #ff6f00;
+    }
+    .dark-teal-text {
+    color: #004d40;
+    }

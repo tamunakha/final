@@ -1,0 +1,8 @@
+@media (max-width:768px){
+    .nav-box{
+        display: none;
+    }
+    .navv{
+        display: block;
+    }
+}
