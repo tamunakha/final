@@ -33,3 +33,25 @@ nav ul li a:after {transform: translateX(-50%) scaleX(0);-webkit-transform: tran
     .dark-teal-text {
     color: #004d40;
     }
+.leavess{
+      left:15px;
+      bottom: 55px;
+}
+.card-text:last-child{
+    color:green;
+    font-weight: bold;
+}
+.inner img{
+    transition: all 1.5s ease;
+}
+.inner:hover img{
+    transform: scale(1.5);
+}
+.inner:hover{
+    box-shadow:10px 14px 18px -6px rgba(0,255,0,0.3);cursor: pointer;color:green;
+}
+.arrows{
+    font-size: 30px;
+    margin-left: 50px;
+}
+.arrow:hover {transform: scale(1.2);-webkit-animation: rotation 0.5s linear;}
