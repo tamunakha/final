@@ -6,41 +6,84 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <title>final project cafe</title>
 </head>
 <body>
     <header class="mt-4">
         <div class="container">
-            <div class="d-flex justify-content-between mb-5">
-                <div class="left mb-5">
+            <div class="d-flex justify-content-between">
+                <div class="left">
                     <a href="#">
                         <img src="photo/logo.svg" alt="logo">
                     </a>
                 </div>
                 <div class="right">
-                    <nav> 
-                        <ul class="d-flex">
-                            <li class="list-unstyled mr-5">
-                                <a class="text-dark text-decoration-none" href="#">Home</a>
+                    <nav class="nav-box"> 
+                        <ul class="d-flex font-weight-bold ">
+                            <li class="nav-items active list-unstyled mr-5">
+                                <a class="text-decoration-none hover-active-color-orangered " href="#">Home</a>
                             </li>
-                            <li class="list-unstyled mr-5">
-                                <a class="text-dark text-decoration-none" href="#">Menu</a>
+                            <li class="nav-items list-unstyled mr-5">
+                                <a class=" text-decoration-none" href="#">Menu</a>
                             </li>
-                            <li class="list-unstyled mr-5">
-                                <a class="text-dark text-decoration-none" href="#">Service</a>
+                            <li class="nav-items list-unstyled mr-5">
+                                <a class="text-decoration-none" href="#">Service</a>
                             </li>
-                            <li class="list-unstyled mr-5">
-                                <a class="text-dark text-decoration-none" href="#">Sign in</a>
+                            <li class="nav-items list-unstyled mr-5">
+                                <a class="text-decoration-none" href="#">Sign in</a>
                             </li>
-                            <i class="fas fa-shopping-bag"></i>
-                        </ul>
+                            <li class="nav-items list-unstyled ">
+                                <a href="#">
+                                    <i class="fas fa-shopping-bag"></i>
+                                </a>
+                            </li>
+                        </ul>                           
                     </nav>
+                    <!--Navbar-->
+<nav class="navbar navbar-light light-blue lighten-4 navv text-right">
+    <a class="navbar-brand" href="#"></a>
+    <!-- Collapse button -->
+    <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1"
+      aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"><span class="dark-blue-text"><i
+          class="fas fa-bars fa-1x"></i></span></button>
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+      <!-- Links -->
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Menu</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Service</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Sign in</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+                <i class="fas fa-shopping-bag"></i>
+            </a>
+          </li>  
+      </ul>
+      <!-- Links -->
+    </div>
+    <!-- Collapsible content -->
+  </nav>
+  <!--/.Navbar-->
                 </div>
             </div>
-            <div class="d-flex">
-                <div class="mt-5">
-                    <h1 class="mt-5">All in Good Taste Food With Figo.</h1>
-                    <p class="mt-5">Quickly predominate standard compliant architecture and may have prospective internal or organic sources. </p>
+            <div class="row mt-5">
+                <div class=" col-md-6 col-sm-12 mt-5 ">
+                    <h2 class="mt-5 display-4 font-weight-bold">All in Good Taste</h2>
+                    <h2 class="display-4 font-weight-bold mb-4">Food With Figo.</h2>
+                    <p class="mb-0">Quickly predominate standard compliant architecture</p>
+                    <p class="mb-0">and may have prospective internal or organic sources.</p>
+                    <p class="mb-0">quickly predominate standard compliant architecture</p>
+                    <p class="mb-0">and may have prospective internal or organic sources.</p>
                     <form class="form-inline mt-5">
                         <div class="form-group mr-3 mb-2">
                           <label for="inputPassword2" class="sr-only"></label>
@@ -49,270 +92,289 @@
                         <button type="submit" class="btn btn-success mb-2 shadow rounded">Get Started</button>
                       </form>
                 </div>
-                <div>
-                    <img src="photo/pizza.jpg" alt="pizza">
+                <div class="col-md-6 col-sm-12"> 
+                    <img class="w-100" src="photo/pizza.jpg" alt="pizza">
                 </div>
             </div>
         </div>  
     </header>
-                <section class="mt-5">
-                    <div class="container mt-5">
-                        <div class="d-flex">
-                            <div>
-                                <img src="photo/poto.png" alt="poto">
-                            </div>
-                                <div class="card-body">
-                                    <h5 class="text-warning">Welcome</h5>
-                                    <h1 class="card-body pl-0">Welcome to Figo Restaurant </h1>
-                                    <p class="card-text">Quickly predominate standards compliants architectures and prospective internal or "organic" sources. Synergistically mesh quality quality vectors for one-to-one leadership.</p>
-                                    <p class="card-text">Quickly predominate standards compliants architectures and prospective internal or "organic" sources. Synergistically mesh quality quality vectors for one-to-one leadership.</p>
-                                  <a href="#" class="btn btn-success mt-3">Explore Our Story</a>
-                                </div>
-                        </div>
-                    </div>
-                </section>
     <section class="mt-5">
-        <div class="container mt-5">
-            <div class="mt-5">
-                <div class="text-center mt-5">
-                      <h3 class="card-title text-warning mt-5">Reason</h3>
-                      <h1 class="card-text mt-3">Why Choose Us?</h1>
+      <div class="container mt-5">
+          <div class="row">
+              <div class="col-md-6 ">
+                  <img class="w-100" src="photo/poto.jpg" alt="poto">
+              </div>
+              <div class="col-md-6 mt-0">
+                  <div class="">
+                      <h5 class="text-warning">Welcome</h5>
+                      <h1 class=" font-weight-bold mt-3">Welcome to Figo  </h1>
+                      <h1 class="font-weight-bold">Restaurant</h1>
+                      <p class="mb-0 mt-4">Quickly predominate standards compliants architectures </p>
+                      <p class="mb-0">and prospective internal or "organic" sources. Synergistically  </p>
+                      <p>mesh quality quality vectors for one-to-one leadership.</p>
+                      <p class="mb-0 mt-4">Quickly predominate standards compliants architectures </p>
+                      <p class="mb-0">and prospective internal or "organic" sources. Synergistically  </p>
+                      <p>mesh quality quality vectors for one-to-one leadership.</p>
+                    <a href="#" class="btn btn-success mt-5">Explore Our Story</a>
                   </div>
-                  <div class="card-group mt-5">
-                    <div class="card bg-light border-0 rounded-lg shadow-sm">
-                      <img class="w-25 mx-auto mt-5" src="photo/Icon1.png" class="card-img-top" alt="icon1">
-                      <div class="card-body mt-2">
-                        <h5 class="card-title mt-2 text-center">Various Menus</h5>
-                        <p class="card-text mt-3">Etiam feugiat eleifend est, odio tempor vitaeVivamus maximus scelerisque ipsum nec commodo.</p>
-                      </div>
-                    </div>
-                    <div class="card border-bottom-0 border-0 rounded-lg shadow-sm">
-                      <img class="w-25 mx-auto mt-5" src="photo/Icon2.png" class="card-img-top" alt="icon2">
-                      <div class="card-body mt-2">
-                        <h5 class="card-title mt-2 text-center">Pocket Friendly Delivery</h5>
-                        <p class="card-text">Etiam feugiat eleifend est, odio tempor vitaeVivamus maximus scelerisque ipsum nec commodo.</p>
-                      </div>
-                    </div>
-                    <div class="card bg-light border-0 rounded-lg shadow-sm">
-                      <img class="w-25 mx-auto mt-5" src="photo/Icon3.png" class="card-img-top" alt="icon3">
-                      <div class="card-body mt-2">
-                        <h5 class="card-title mt-2 text-center">Best Offers</h5>
-                        <p class="card-text mt-3">Etiam feugiat eleifend est, odio tempor vitaeVivamus maximus scelerisque ipsum nec commodo.</p>
-                      </div>
-                    </div>
-                  </div>
-            </div>
+              </div>
+          </div>
+      </div>
+      <div class="position-relative">
+          <div class="position-absolute leavess ">
+            <img src="photo/leavess.png" alt="leavess">
+          </div>
         </div>
-    </section>
-    <section>
-        <div class="container">
-            <div class="text-center mt-5">
-                <h3 class="card-title text-warning mt-5">Browse</h3>
-                <h1>Explore Our Menu</h1>
-            </div>
-            <div class="row">
-                <div class="col-3">
-                  <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                    <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-Breakfast" role="tab" aria-controls="v-pills-home" aria-selected="true">Breakfast</a>
-                    <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-Lunch" role="tab" aria-controls="v-pills-profile" aria-selected="false">Lunch</a>
-                    <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-Dinner" role="tab" aria-controls="v-pills-messages" aria-selected="false">Dinner</a>
-                    <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-Desert" role="tab" aria-controls="v-pills-settings" aria-selected="false">Desert</a>
-                    <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-Soups" role="tab" aria-controls="v-pills-messages" aria-selected="false">Soups</a>
-                    <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-Drinks" role="tab" aria-controls="v-pills-settings" aria-selected="false">Drinks</a>
+  </section>
+  <section>
+    <div class="position-relative">
+      <div class="position-absolute leafff ">
+        <img src="photo/leaff.png" alt="leaff">
+      </div>
+    </div>
+      <div class="container">
+          <div class="text-center mt-5">
+              <h5 class="text-warning mt-5">Reason</h5>
+              <h2 class="mt-3 font-weight-bold display-5">Why Choose Us?</h2>
+          </div>
+              <div class="row d-flex justify-content-center mt-5">
+                <div class="col-md-4 bg-light bborder-0 rounded-lg">
+                  <div class="mt-4">
+                      <img class="img" src="photo/Icon1.png" alt="icon1">
+                  </div>
+                  <div class="text-center mt-3">
+                      <h5 class="mt-2 font-weight-bold">Various Menus</h5>
+                      <p class="mt-3 mb-1">Etiam feugiat eleifend est,odio</p>
+                      <p class="mb-1">tempor vitaeVivamus maximus</p>
+                      <p class="mb-1">scelerisque ipsum nec commodo.</p>
                   </div>
                 </div>
-                <div class="col-9">
-                  <div class="tab-content" id="v-pills-tabContent">
-                    <div class="tab-pane fade show active" id="v-pills-Breakfast" role="tabpanel" aria-labelledby="v-pills-home-tab">
-                        <div class="card-deck">
-                            <div class="card">
-                              <img src="photo/fish.png" class="card-img-top" alt="fish">
-                              <div class="card-body">
-                                <h5 class="card-title">Chicken Massala</h5>
-                                <small class="card-text">$100</small>
-                              </div>
-                            </div>
-                            <div class="card">
-                              <img src="photo/chicken.png" class="card-img-top" alt="chicken">
-                              <div class="card-body">
-                                <h5 class="card-title">Western Sunrise</h5>
-                                <small class="card-text">$100</small>
-                              </div>
-                            </div>
-                            <div class="card">
-                              <img src="photo/omelette.png" class="card-img-top" alt="omelette">
-                              <div class="card-body">
-                                <h5 class="card-title">Sandwich Soup</h5>
-                                <small class="card-text">$100</small>
-                              </div>
-                            </div>
-                          </div>
-                    </div>
-                    <div class="tab-pane fade" id="v-pills-Lunch" role="tabpanel" aria-labelledby="v-pills-profile-tab">
-                        <div class="card-deck">
-                            <div class="card">
-                              <img src="photo/fish.png" class="card-img-top" alt="fish">
-                              <div class="card-body">
-                                <h5 class="card-title">Chicken Massala</h5>
-                                <small class="card-text">$100</small>
-                              </div>
-                            </div>
-                            <div class="card">
-                              <img src="photo/chicken.png" class="card-img-top" alt="chicken">
-                              <div class="card-body">
-                                <h5 class="card-title">Western Sunrise</h5>
-                                <small class="card-text">$100</small>
-                              </div>
-                            </div>
-                            <div class="card">
-                              <img src="photo/omelette.png" class="card-img-top" alt="omelette">
-                              <div class="card-body">
-                                <h5 class="card-title">Sandwich Soup</h5>
-                                <small class="card-text">$100</small>
-                              </div>
-                            </div>
-                          </div>
-                    </div>
-                    <div class="tab-pane fade" id="v-pills-Dinner" role="tabpanel" aria-labelledby="v-pills-messages-tab"><div class="card-deck">
-                        <div class="card">
-                          <img src="photo/fish.png" class="card-img-top" alt="fish">
-                          <div class="card-body">
-                            <h5 class="card-title">Chicken Massala</h5>
-                            <small class="card-text">$100</small>
-                          </div>
-                        </div>
-                        <div class="card">
-                          <img src="photo/chicken.png" class="card-img-top" alt="chicken">
-                          <div class="card-body">
-                            <h5 class="card-title">Western Sunrise</h5>
-                            <small class="card-text">$100</small>
-                          </div>
-                        </div>
-                        <div class="card">
-                          <img src="photo/omelette.png" class="card-img-top" alt="omelette">
-                          <div class="card-body">
-                            <h5 class="card-title">Sandwich Soup</h5>
-                            <small class="card-text">$100</small>
-                          </div>
-                        </div>
-                      </div>
-                </div>
-                    <div class="tab-pane fade" id="v-pills-Desert" role="tabpanel" aria-labelledby="v-pills-settings-tab"><div class="card-deck">
-                        <div class="card">
-                          <img src="photo/fish.png" class="card-img-top" alt="fish">
-                          <div class="card-body">
-                            <h5 class="card-title">Chicken Massala</h5>
-                            <small class="card-text">$100</small>
-                          </div>
-                        </div>
-                        <div class="card">
-                          <img src="photo/chicken.png" class="card-img-top" alt="chicken">
-                          <div class="card-body">
-                            <h5 class="card-title">Western Sunrise</h5>
-                            <small class="card-text">$100</small>
-                          </div>
-                        </div>
-                        <div class="card">
-                          <img src="photo/omelette.png" class="card-img-top" alt="omelette">
-                          <div class="card-body">
-                            <h5 class="card-title">Sandwich Soup</h5>
-                            <small class="card-text">$100</small>
-                          </div>
-                        </div>
-                      </div>
-                </div>
-                    <div class="tab-pane fade" id="v-pills-Soups" role="tabpanel" aria-labelledby="v-pills-messages-tab"><div class="card-deck">
-                        <div class="card">
-                          <img src="photo/fish.png" class="card-img-top" alt="fish">
-                          <div class="card-body">
-                            <h5 class="card-title">Chicken Massala</h5>
-                            <small class="card-text">$100</small>
-                          </div>
-                        </div>
-                        <div class="card">
-                          <img src="photo/chicken.png" class="card-img-top" alt="chicken">
-                          <div class="card-body">
-                            <h5 class="card-title">Western Sunrise</h5>
-                            <small class="card-text">$100</small>
-                          </div>
-                        </div>
-                        <div class="card">
-                          <img src="photo/omelette.png" class="card-img-top" alt="omelette">
-                          <div class="card-body">
-                            <h5 class="card-title">Sandwich Soup</h5>
-                            <small class="card-text">$100</small>
-                          </div>
-                        </div>
-                      </div>
-                </div>
-                    <div class="tab-pane fade" id="v-pills-Drinks" role="tabpanel" aria-labelledby="v-pills-settings-tab"><div class="card-deck">
-                        <div class="card">
-                          <img src="photo/fish.png" class="card-img-top" alt="fish">
-                          <div class="card-body">
-                            <h5 class="card-title">Chicken Massala</h5>
-                            <small class="card-text">$100</small>
-                          </div>
-                        </div>
-                        <div class="card">
-                          <img src="photo/chicken.png" class="card-img-top" alt="chicken">
-                          <div class="card-body">
-                            <h5 class="card-title">Western Sunrise</h5>
-                            <small class="card-text">$100</small>
-                          </div>
-                        </div>
-                        <div class="card">
-                          <img src="photo/omelette.png" class="card-img-top" alt="omelette">
-                          <div class="card-body">
-                            <h5 class="card-title">Sandwich Soup</h5>
-                            <small class="card-text">$100</small>
-                          </div>
-                        </div>
-                      </div>
-                </div>
+                <div class="col-md-4 bg-light border-0 rounded-lg">
+                  <div class="mt-4">
+                      <img class="img" src="photo/Icon2.png" alt="icon2">
+                  </div>
+                  <div class="text-center mt-3">
+                      <h5 class="mt-2 font-weight-bold">Pocket Friendly Delivery</h5>
+                      <p class="mt-3 mb-1">Etiam feugiat eleifend est,odio</p>
+                      <p class="mb-1">tempor vitaeVivamus maximus</p>
+                      <p class="mb-1">scelerisque ipsum nec commodo.</p>
                   </div>
                 </div>
-        </div>
-        <div class="d-flex justify-content-end">
-            <div>
-               <a href="#">
-                   <i class="fas fa-arrow-circle-left"></i>
-               </a>
-               <a href="#">
-                   <i class="fas fa-arrow-circle-right"></i>
-               </a>
+                <div class="col-md-4 bg-light border-0 rounded-lg">
+                  <div class="mt-4">
+                      <img class="img" src="photo/Icon3.png" alt="icon3">
+                  </div>
+                  <div class="text-center mt-3">
+                      <h5 class="mt-2 font-weight-bold">Best Offers</h5>
+                      <p class="mt-3 mb-1">Etiam feugiat eleifend est,odio</p>
+                      <p class="mb-1">tempor vitaeVivamus maximus</p>
+                      <p class="mb-5">scelerisque ipsum nec commodo.</p>
+                  </div>
+              </div>
+          </div>
+          </div>
+        </section>
+        <section>
+          <div class="container">
+              <div class="text-center mt-5">
+                  <h3 class="card-title text-warning mt-5">Browse</h3>
+                  <h1>Explore Our Menu</h1>
+              </div>
+              <div class="row mt-4">
+                  <div class="box">
+                  <div class="col-3">
+                    <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                      <a class="nav-link active bg-white" id="v-pills-Breakfast-tab" data-toggle="pill" href="#v-pills-Breakfast" role="tab" aria-controls="v-pills-Breakfast" aria-selected="true">Breakfast</a>
+                      <a class="nav-link bg-white mt-3" id="v-pills-Lunch-tab" data-toggle="pill" href="#v-pills-Lunch" role="tab" aria-controls="v-pills-Lunch" aria-selected="false">Lunch</a>
+                      <a class="nav-link bg-white mt-3" id="v-pills-Dinner-tab" data-toggle="pill" href="#v-pills-Dinner" role="tab" aria-controls="v-pills-Dinner" aria-selected="false">Dinner</a>
+                      <a class="nav-link bg-white mt-3" id="v-pills-Desert-tab" data-toggle="pill" href="#v-pills-Desert" role="tab" aria-controls="v-pills-Desert" aria-selected="false">Desert</a>
+                      <a class="nav-link bg-white mt-3" id="v-pills-Soups-tab" data-toggle="pill" href="#v-pills-Soups" role="tab" aria-controls="v-pills-Soups" aria-selected="false">Soups</a>
+                      <a class="nav-link bg-white mt-3" id="v-pills-Drinks-tab" data-toggle="pill" href="#v-pills-Drinks" role="tab" aria-controls="v-pills-Drinks" aria-selected="false">Drinks</a>
+                    </div>
+                  </div>
+                  </div>
+                  <div class="col-9 ml-5">
+                    <div class="tab-content" id="v-pills-tabContent">
+                      <div class="tab-pane fade show active" id="v-pills-Breakfast" role="tabpanel" aria-labelledby="v-pills-Breakfast-tab">
+                          <div class="card-deck text-center ml-5">
+                              <div class="card inner">
+                                <img src="photo/fish.png" class="card-img-top" alt="fish">
+                                <div class="card-body">
+                                  <h5 class="card-title">Chicken Massala</h5>
+                                  <small class="card-text">$100</small>
+                                </div>
+                              </div>
+                              <div class="card inner">
+                                <img src="photo/chicken.png" class="card-img-top" alt="chicken">
+                                <div class="card-body">
+                                  <h5 class="card-title">Western Sunrise</h5>
+                                  <small class="card-text">$100</small>
+                                </div>
+                              </div>
+                              <div class="card inner">
+                                <img src="photo/omelette.png" class="card-img-top" alt="omelette">
+                                <div class="card-body">
+                                  <h5 class="card-title">Sandwich Soup</h5>
+                                  <small class="card-text">$100</small>
+                                </div>
+                              </div>
+                            </div>
+                      </div>
+                      <div class="tab-pane fade" id="v-pills-Lunch" role="tabpanel" aria-labelledby="v-pills-Lunch-tab">
+                          <div class="card-deck text-center ml-5">
+                              <div class="card inner">
+                                <img src="photo/fish.png" class="card-img-top" alt="fish">
+                                <div class="card-body">
+                                  <h5 class="card-title">Chicken Massala</h5>
+                                  <small class="card-text">$100</small>
+                                </div>
+                              </div>
+                              <div class="card inner">
+                                <img src="photo/chicken.png" class="card-img-top" alt="chicken">
+                                <div class="card-body">
+                                  <h5 class="card-title">Western Sunrise</h5>
+                                  <small class="card-text">$100</small>
+                                </div>
+                              </div>
+                              <div class="card inner">
+                                <img src="photo/omelette.png" class="card-img-top" alt="omelette">
+                                <div class="card-body">
+                                  <h5 class="card-title">Sandwich Soup</h5>
+                                  <small class="card-text">$100</small>
+                                </div>
+                              </div>
+                            </div>
+                      </div>
+                      <div class="tab-pane fade" id="v-pills-Dinner" role="tabpanel" aria-labelledby="v-pills-Dinner-tab"><div class="card-deck">
+                        <div class="card  text-center inner">
+                            <img src="photo/fish.png" class="card-img-top" alt="fish">
+                            <div class="card-body">
+                              <h5 class="card-title">Chicken Massala</h5>
+                              <small class="card-text">$100</small>
+                            </div>
+                          </div>
+                          <div class="card text-center inner">
+                            <img src="photo/chicken.png" class="card-img-top" alt="chicken">
+                            <div class="card-body">
+                              <h5 class="card-title">Western Sunrise</h5>
+                              <small class="card-text">$100</small>
+                            </div>
+                          </div>
+                          <div class="card text-center inner">
+                            <img src="photo/omelette.png" class="card-img-top" alt="omelette">
+                            <div class="card-body">
+                              <h5 class="card-title">Sandwich Soup</h5>
+                              <small class="card-text">$100</small>
+                            </div>
+                          </div>
+                        </div>
+                  </div>
+                      <div class="tab-pane fade" id="v-pills-Desert" role="tabpanel" aria-labelledby="v-pills-Desert-tab"><div class="card-deck">
+                          <div class="card text-center inner">
+                            <img src="photo/fish.png" class="card-img-top" alt="fish">
+                            <div class="card-body">
+                              <h5 class="card-title">Chicken Massala</h5>
+                              <small class="card-text">$100</small>
+                            </div>
+                          </div>
+                          <div class="card text-center inner">
+                            <img src="photo/chicken.png" class="card-img-top" alt="chicken">
+                            <div class="card-body">
+                              <h5 class="card-title">Western Sunrise</h5>
+                              <small class="card-text">$100</small>
+                            </div>
+                          </div>
+                          <div class="card text-center inner">
+                            <img src="photo/omelette.png" class="card-img-top" alt="omelette">
+                            <div class="card-body">
+                              <h5 class="card-title">Sandwich Soup</h5>
+                              <small class="card-text">$100</small>
+                            </div>
+                          </div>
+                        </div>
+                  </div>
+                      <div class="tab-pane fade" id="v-pills-Soups" role="tabpanel" aria-labelledby="v-pills-Soups-tab"><div class="card-deck">
+                          <div class="card text-center inner">
+                            <img src="photo/fish.png" class="card-img-top" alt="fish">
+                            <div class="card-body">
+                              <h5 class="card-title">Chicken Massala</h5>
+                              <small class="card-text">$100</small>
+                            </div>
+                          </div>
+                          <div class="card text-center inner">
+                            <img src="photo/chicken.png" class="card-img-top" alt="chicken">
+                            <div class="card-body">
+                              <h5 class="card-title">Western Sunrise</h5>
+                              <small class="card-text">$100</small>
+                            </div>
+                          </div>
+                          <div class="card text-center inner">
+                            <img src="photo/omelette.png" class="card-img-top" alt="omelette">
+                            <div class="card-body">
+                              <h5 class="card-title">Sandwich Soup</h5>
+                              <small class="card-text">$100</small>
+                            </div>
+                          </div>
+                        </div>
+                  </div>
+                      <div class="tab-pane fade" id="v-pills-Drinks" role="tabpanel" aria-labelledby="v-pills-Drinks-tab"><div class="card-deck">
+                          <div class="card  text-center  inner">
+                            <img src="photo/fish.png" class="card-img-top" alt="fish">
+                            <div class="card-body">
+                              <h5 class="card-title">Chicken Massala</h5>
+                              <small class="card-text">$100</small>
+                            </div>
+                          </div>
+                          <div class="card text-center inner">
+                            <img src="photo/chicken.png" class="card-img-top" alt="chicken">
+                            <div class="card-body">
+                              <h5 class="card-title">Western Sunrise</h5>
+                              <small class="card-text">$100</small>
+                            </div>
+                          </div>
+                          <div class="card text-center inner">
+                            <img src="photo/omelette.png" class="card-img-top" alt="omelette">
+                            <div class="card-body">
+                              <h5 class="card-title">Sandwich Soup</h5>
+                              <small class="card-text">$100</small>
+                            </div>
+                          </div>
+                        </div>
+                  </div>
+                    </div>
+                  </div>
+          </div>
+          <div class="d-flex justify-content-end arrows">
+              <div>
+                 <a href="#">
+                     <i class="fas fa-arrow-circle-left text-success arrow"></i>
+                 </a>
+                 <a href="#">
+                     <i class="fas fa-arrow-circle-right text-success arrow "></i>
+                 </a>
+             </div>
            </div>
          </div>
-       </div>
-    </section>
-    <section class="mt-5">
-        <div class="container mt-5">
-            <div class="d-flex">
-                <div class="card-body mt-5">
-                    <h5 class="text-warning">History of Figo</h5>
-                    <h1 class="card-body pl-0">We Cook Tradition & Family Recipes </h1>
-                    <p class="card-text">Quickly predominate standards compliants architectures and prospective internal or "organic" sources. Synergistically mesh quality quality vectors for one-to-one leadership.</p>
-                    <p class="card-text">Quickly predominate standards compliants architectures and prospective internal or "organic" sources.</p>
-                  <a href="#" class="btn btn-success mt-3">Explore Our Story</a>
-                </div>
-                <div>
-                    <img src="photo/burger.png" alt="burger">
-                </div>
+      </section>
+      <section class="mt-5">
+        <div class="position-relative">
+            <div class="position-absolute lleeaaff">
+              <img src="photo/lleeaaff.png" alt="lleeaaff">
+              </div>
             </div>
-        </div>
-    <section class="mt-5">
         <div class="container mt-5">
                 <div class="text-center mt-5">
                     <h3 class="card-title text-warning mt-5">Testimonials</h3>
                     <h1 class="card-text mt-3">Food Lover's Say</h1>
                 </div>
-                <div class="card-columns mt-5">
-                    <div class="card mt-5 ">
+                <div class="card-columns mt-5 ">
+                    <div class="card mt-4 boxes ">
                         <div class="card-body shadow p-3 mb-5 bg-white rounded">
-                            <p class="card-text">Design is an evolutionary process, and filler text is just one tool in your progress-pushing arsenal.Use it where it makes sense process.</p>
+                            <p class="card-text opinions">Design is an evolutionary process, and filler text is just one tool in your progress-pushing arsenal.Use it where it makes sense process.</p>
                             </div>
                             <div class="d-flex">
                                 <div>
-                             <img class="" src="photo/lurch.png" class="card-img-top" alt="lurch">
+                             <img class="card-img-top" src="photo/lurch.png" alt="lurch">
                              </div>
                              <div>
                                 <h3>Lurch Schpellchek</h3>
@@ -320,9 +382,9 @@
                              </div>
                         </div>
                     </div>
-                    <div class="card ">
+                    <div class="card boxes">
                         <div class="card-body shadow p-3 mb-5 bg-white rounded">
-                            <p class="card-text">Relax and do whatever fits with your design process. Don’t set a lot of restrictive hard-and-fast rules your design process.</p>
+                            <p class="card-text opinions">Relax and do whatever fits with your design process. Don’t set a lot of restrictive hard-and-fast rules your design process.</p>
                             </div>
                             <div class="d-flex">
                                 <div>
@@ -334,9 +396,9 @@
                              </div>
                         </div>
                     </div>
-                    <div class="card mt-5">
+                    <div class="card mt-5 boxes">
                         <div class="card-body shadow p-3 mb-5 bg-white rounded">
-                            <p class="card-text">The argument in favor of using filler something like this use real content design.</p>
+                            <p class="card-text opinions">The argument in favor of using filler something like this use real content design.</p>
                             </div>
                             <div class="d-flex">
                                 <div>
@@ -350,9 +412,9 @@
                     </div>
                      </div>
                          <div class="card-columns mx-5">
-                                    <div class="card mx-5">
+                                    <div class="card boxes separately mt-2">
                                         <div class="card-body shadow p-3 mb-5 bg-white rounded">
-                                            <p class="card-text">Surprisingly, there is a very vocal faction of the design community that wants to see filler text banished to the original sources came.</p>
+                                            <p class="card-text opinions">Surprisingly, there is a very vocal faction of the design community that wants to see filler text banished to the original sources came.</p>
                                             </div>
                                             <div class="d-flex">
                                                 <div>
@@ -364,16 +426,16 @@
                                              </div>
                                         </div>
                                     </div>
-                                    <div class="card mx-5 mt-5">
+                                    <div class="card boxes separately mt-5">
                                         <div class="card-body shadow p-3 mb-5 bg-white rounded">
-                                            <p class="card-text">The ultimate purpose of any digital product, whether a website, app, or HTML email, is showcase great design.</p>
+                                            <p class="card-text opinions">The ultimate purpose of any digital product, whether a website, app, or HTML email, is showcase great design.</p>
                                             </div>
                                             <div class="d-flex">
                                                 <div>
                                              <img src="photo/hermann.png" class="card-img-top" alt="hermann">
                                              </div>
                                              <div>
-                                                <h3>Hermann P. Schnitzel</h3>
+                                                <h3>Hermann P.Schnitzel</h3>
                                                 <P>Sr.Designer @ Stepsize</P>
                                              </div>
                                         </div>
@@ -381,64 +443,135 @@
                                 </div>
                         </div>
                         </section>
-                        <section mt-5>
-                            <div class="container mt-5">
-                                <div class="text-center mt-5">
-                                    <h3 class="card-title text-warning  mt-5">News</h3>
-                                    <h1 class="card-text mt-3">Latest News</h1>
-                                </div>
-                                <div class="d-flex mt-5">
+                        <section class="mt-5">
+                          <div class="container mt-5">
+                              <div class="text-center mt-5">
+                                  <h3 class="card-title text-warning  mt-5">News</h3>
+                                  <h1 class="card-text mt-3">Latest News</h1>
+                              </div>
+                              <div class="d-flex mt-5">
+                                  <div class="card mx-auto border-0" style="width: 18rem;">
+                                      <img src="photo/food.jpg" class="card-img-top" alt="food">
+                                      <div class="card-body">
+                                        <h5 class="card-title">Spain Appetizer</h5>
+                                        <p class="card-text">Quickly of predominate and standards compliiants and an architectures.</p>
+                                        <a href="#" class="btn btn-link text-warning text-decoration-none pl-0">Read More</a>
+                                      </div>
+                                    </div>
                                     <div class="card mx-auto border-0" style="width: 18rem;">
-                                        <img src="photo/food.png" class="card-img-top" alt="food">
-                                        <div class="card-body">
-                                          <h5 class="card-title">Spain Appetizer</h5>
-                                          <p class="card-text">Quickly of predominate and standards compliiants and an architectures.</p>
-                                          <a href="#" class="btn btn-link text-warning text-decoration-none pl-0">Read More</a>
-                                        </div>
+                                      <img src="photo/cheese.jpg" class="card-img-top" alt="cheese">
+                                      <div class="card-body">
+                                        <h5 class="card-title">Wine And Cheese</h5>
+                                        <p class="card-text">Quickly of predominate and standards compliiants and an architectures.</p>
+                                        <a href="#" class="btn btn-link text-warning text-decoration-none pl-0">Read More</a>
                                       </div>
-                                      <div class="card mx-auto border-0" style="width: 18rem;">
-                                        <img src="photo/cheese.png" class="card-img-top" alt="cheese">
-                                        <div class="card-body">
-                                          <h5 class="card-title">Wine And Cheese</h5>
-                                          <p class="card-text">Quickly of predominate and standards compliiants and an architectures.</p>
-                                          <a href="#" class="btn btn-link text-warning text-decoration-none pl-0">Read More</a>
-                                        </div>
+                                    </div>
+                                    <div class="card mx-auto border-0" style="width: 18rem;">
+                                      <img src="photo/bread.jpg" class="card-img-top" alt="bread">
+                                      <div class="card-body">
+                                        <h5 class="card-title">Cups Of Coffee</h5>
+                                        <p class="card-text">Quickly of predominate and standards compliiants and an architectures.</p>
+                                        <a href="#" class="btn btn-link text-warning text-decoration-none pl-0">Read More</a>
                                       </div>
-                                      <div class="card mx-auto border-0" style="width: 18rem;">
-                                        <img src="photo/bread.png" class="card-img-top" alt="bread">
-                                        <div class="card-body">
-                                          <h5 class="card-title">Cups Of Coffee</h5>
-                                          <p class="card-text">Quickly of predominate and standards compliiants and an architectures.</p>
-                                          <a href="#" class="btn btn-link text-warning text-decoration-none pl-0">Read More</a>
-                                        </div>
-                                      </div>
-                                </div>
-                            </div>
-    </section>
-    <section>
-      <div class="container">
-          <div class="d-flex justify-content-center text-center">
-              <div>
-                  <h5>Subscription</h5>
-                  <h2>Wants to Get Update? </h2>
-                  <form class="form-inline mt-5">
-                      <div class="form-group mr-3 mb-2">
-                        <label for="inputPassword2" class="sr-only"></label>
-                        <input type="email" class="form-control" id="inputPassword2" placeholder="Enter Your Email Address">
+                                    </div>
+                              </div>
+                          </div>
+                  </section>
+                  <section> 
+                    <div class="position-relative">
+                        <div class="position-absolute leaf">
+                          <img src="photo/leaf.png" alt="leaf">
+                        </div>
                       </div>
-                      <a href="">
-                          <i class="fas fa-arrow-circle-right"></i>
-                      </a>
-                    </form>
-              </div>
-          </div>
-      </div>
-      <div class="position-relative">
-        <div class="position-absolute image ">
-          <img src="photo/leaves.png" alt="leaves">
-        </div>
-      </div>
-      </section>
+                    <div class="container">
+                        <div class="card text-center border-0">
+                            <div class="card-body">
+                              <h5 class="card-title text-warning mt-5">Subscription</h5>
+                              <h2 class="mt-4">Wants to Get Update?</h2>
+                               <form class="form-inline mt-5 mr-5 d-flex justify-content-center">
+                                <div class="form-group mr-3 mb-2">
+                                  <label for="inputPassword2" class="sr-only"></label>
+                                  <input type="email" class="form-control rounded-pill" id="inputPassword" placeholder="Enter Your Email Address">
+                                </div>
+                                <a href="#">
+                                    <i class="fas fa-arrow-circle-right arroww text-success mb-2"></i>
+                                </a>
+                              </form>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="position-relative">
+                        <div class="position-absolute image ">
+                          <img src="photo/leaves.png" alt="leaves">
+                        </div>
+                      </div>
+                </section>
+                <footer>
+                  <div id="footer-area">
+                      <div class="container mt-5">
+                          <div class="row">
+                              <div class="col-md-3 col-sm-6">
+                                  <div class="single-footer">
+                                      <img src="photo/logo.svg" alt="logo">
+                                      <p class="mt-4">Don't miss to subscribe to our new feeds, Kindly fill the form bellow.</p>
+                                  <ul class="footer-social list-inline d-flex justify-content-start font-color">
+                                      <li><a href="#"><i class="fab fa-facebook-square mr-4 icon-list"></i></a></li>
+                                       <li><a href="#"><i class="fab fa-twitter-square mr-4 icon-list"></i></a></li>
+                                      <li><a href="#"><i class="fab fa-instagram mr-4 icon-list"></i></a></li>
+                                      <li><a href="#"><i class="fab fa-youtube icon-list"></i></a></li>
+                                  </ul>
+                                  </div>
+                              </div>
+                              <div class="col-md-3 col-sm-6">
+                                      <div class="single-footer">
+                                          <h3 class="ml-4 pl-3">Our Menu</h3>
+                                          <ul class="link-area list-unstyled">
+                                              <li>
+                                                  <a class="text-dark text-decoration-none" href="#">Lunch</a>
+                                              </li>
+                                              <li>
+                                                  <a class="text-dark text-decoration-none" href="#">Dinner</a>
+                                              </li>
+                                              <li>
+                                                  <a class="text-dark text-decoration-none" href="#">Catering</a>
+                                              </li>
+                                          </ul>
+                                      </div>
+                              </div>
+                              <div class="col-md-3 col-sm-6">
+                                  <div class="single-footer list-unstyled">
+                                      <h3 class="ml-4 pl-3">Links</h3>
+                                      <ul class="link-area">
+                                          <li>
+                                              <a href="#">About us</a>
+                                          </li>
+                                          <li>
+                                              <a href="#">Terms Of Use</a>
+                                          </li>
+                                          <li>
+                                              <a href="#">Privacy Policy</a>
+                                          </li>
+                                      </ul>
+                                  </div>
+                          </div>
+                          <div class="col-md-3 col-sm-6">
+                              <div class="single-footer list-unstyled">
+                              <h3>Contact</h3>
+                              <ul>
+                              <li><a class="text-dark text-decoration-none" href="#"><i class="fas fa-phone-alt "></i>+8801622010442</a></li>
+                              <li><a class="text-dark text-decoration-none" href="#"><i class="fas fa-envelope"></i>info@restaurant.com</a></li>
+                              <li><a class="text-dark text-decoration-none" href="#"><i class="fas fa-map-marker-alt"></i>Daudkandi, Comilla</a></li>
+                          </ul>
+                          </div>
+                          </div>
+                          </div>
+                      </div>
+      
+                  </div>
+              </footer>
+      
+
+               
 
 
 
