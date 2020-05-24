@@ -5,7 +5,7 @@ nav ul li a:hover{color:orangered;transition: .9s;}
 nav ul li a:after {transform: translateX(-50%) scaleX(0);-webkit-transform: translateX(-50%) scaleX(0);-webkit-transform-origin: 50% 50%;transition: transform 250ms;}
 .col-md-4:hover{box-shadow:10px 14px 18px -6px rgba(0,255,0,0.3);cursor: pointer;color:green;}
 .leafff{right: 170px;top: -25px;}
-.image{right: 80px; bottom: 10px;}
+.image{right: 80px; bottom:-32px;}
 .img{margin-left: 135px;}
 .nav-link:focus{color:black;}
 .nav-link {color:black;}
@@ -15,7 +15,7 @@ nav ul li a:after {transform: translateX(-50%) scaleX(0);-webkit-transform: tran
 .navv{
     display: none;
 }
-.fa-1x {
+/* .fa-1x {
     font-size: 1.5rem;
     }
     .navbar-toggler.toggler-example {
@@ -40,12 +40,12 @@ nav ul li a:after {transform: translateX(-50%) scaleX(0);-webkit-transform: tran
 .card-text:last-child{
     color:green;
     font-weight: bold;
-}
+} */
 .inner img{
-    transition: all 1.5s ease;
+    transition: all 1.1s ease;
 }
 .inner:hover img{
-    transform: scale(1.5);
+    transform: scale(1.1);
 }
 .inner:hover{
     box-shadow:10px 14px 18px -6px rgba(0,255,0,0.3);cursor: pointer;color:green;
@@ -55,3 +55,31 @@ nav ul li a:after {transform: translateX(-50%) scaleX(0);-webkit-transform: tran
     margin-left: 50px;
 }
 .arrow:hover {transform: scale(1.2);-webkit-animation: rotation 0.5s linear;}
+.opinions text{
+    transition: all 1.1s ease;
+}
+.opinions:hover{
+    transform: scale(1.1);
+}
+.boxes:hover{
+    box-shadow:10px 14px 18px -6px rgba(0,255,0,0.3);cursor: pointer;color:#CD853F;
+}
+.separately{
+    margin-left: 140px;
+}
+.lleeaaff{
+    right:0px;
+    top:225px;
+}
+.arroww{
+    font-size: 39px;
+}
+.leaf{
+    right: 80px; bottom: 10px;
+}
+.icon-list{
+    font-size: 25px;
+}
+.font-color a{
+    color:green;
+}
