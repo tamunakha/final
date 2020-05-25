@@ -5,7 +5,7 @@ nav ul li a:hover{color:orangered;transition: .9s;}
 nav ul li a:after {transform: translateX(-50%) scaleX(0);-webkit-transform: translateX(-50%) scaleX(0);-webkit-transform-origin: 50% 50%;transition: transform 250ms;}
 .col-md-4:hover{box-shadow:10px 14px 18px -6px rgba(0,255,0,0.3);cursor: pointer;color:green;}
 .leafff{right: 170px;top: -25px;}
-.image{right: 80px; bottom:-32px;}
+.image{right: 250px; bottom:50px;}
 .img{margin-left: 135px;}
 .nav-link:focus{color:black;}
 .nav-link {color:black;}
@@ -74,12 +74,19 @@ nav ul li a:after {transform: translateX(-50%) scaleX(0);-webkit-transform: tran
 .arroww{
     font-size: 39px;
 }
-.leaf{
-    right: 80px; bottom: 10px;
-}
 .icon-list{
     font-size: 25px;
 }
 .font-color a{
     color:green;
+}
+.Price{
+    color:green;
+}
+.mozzarella{
+    margin-top: 35px;
+}
+.herbs{
+    right:10px;
+    bottom: 20px;
 }
