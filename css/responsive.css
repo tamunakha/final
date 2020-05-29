@@ -1,8 +1,36 @@
-@media (max-width:768px){
+@media (max-width:767px){
     .nav-box{
         display: none;
     }
     .navv{
         display: block;
     }
+    .pizza{
+        display: none;
+    }
+    .bg-image{
+        background: url(../photo/pizza.jpg) no-repeat right;
+        background-size: contain;
+        height: 300px;
+    }
+
+}
+@media (max-width:539px){
+    .bg-image{
+        background: none;
+    }
+    .pizza{
+        display: block;
+    }
+    .text-ar{
+        margin: 0 auto;
+        width: 80%;
+    }
+
+
+}
+@media (max-width:320px){
+   .bg-image{
+       margin-top: 0;
+   }
 }
