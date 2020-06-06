@@ -1,3 +1,20 @@
+@media(max-width:955px){
+    .display-4{
+    font-size: 2.5rem !important;
+    }
+    .display-title{
+        margin: 0 !important;
+    }
+    .title-remove{
+        display: none;
+    }
+    .font-size{
+        font-size: 1.5rem;
+    }
+    .img{
+        margin-left: 80px;
+    }
+}
 @media (max-width:767px){
     .nav-box{
         display: none;
@@ -26,9 +43,32 @@
         margin: 0 auto;
         width: 80%;
     }
+    .flex-responsive{
+        display: block !important;
+    }
+    .box{
+        display: none;
+    }
+    .responsive-mr{
+        margin: 0 !important;
+        width: 95%;
+    }
 
 
 }
+
+@media(max-width:470px){
+    .burger {
+        width: 95%;
+    }
+
+}
+@media(max-width:353px){
+    .margin-box, .mx-5, .ml-5, .mr-5, .separately{
+        margin:0 !important;
+    } 
+}
+
 @media (max-width:320px){
    .bg-image{
        margin-top: 0;
