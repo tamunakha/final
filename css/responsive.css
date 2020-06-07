@@ -1,3 +1,20 @@
+@media (max-width:991px){
+    .title-remove-text{
+        display: none;
+    }
+    .float-right-class{
+        float: right;
+    }
+    .manual-margin{
+        margin-top: 0.5rem !important;
+    }
+    .responsive-change p {
+        font-size: 15px;
+    }
+    .responsive-change h5 {
+        font-size: 18px;
+    }
+}
 @media(max-width:955px){
     .display-4{
     font-size: 2.5rem !important;
@@ -11,11 +28,16 @@
     .font-size{
         font-size: 1.5rem;
     }
-    .img{
-        margin-left: 80px;
-    }
+    
 }
 @media (max-width:767px){
+    .size-shrift{
+        margin-top: 60px;
+    }
+    .pizza-poto{
+        margin-top: 0;
+    }
+
     .nav-box{
         display: none;
     }
@@ -29,6 +51,18 @@
         background: url(../photo/pizza.jpg) no-repeat right;
         background-size: contain;
         height: 300px;
+    }
+    .title-remove-text{
+        display: block;
+    }
+    .manual-float{
+        float: right;
+    }
+    .manual-section{
+        margin: 0 !important;
+    }
+    .leafff{
+        right: 0;
     }
 
 }
@@ -63,10 +97,20 @@
     }
 
 }
-@media(max-width:353px){
+@media(max-width:360px){
     .margin-box, .mx-5, .ml-5, .mr-5, .separately{
         margin:0 !important;
     } 
+    .display-4{
+        font-size: 2rem !important;
+    }
+    .manual-width{
+        width: 58% !important;
+    }
+    .title-remove-text{
+        display: none;
+    }
+
 }
 
 @media (max-width:320px){
