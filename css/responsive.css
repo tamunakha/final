@@ -14,6 +14,25 @@
     .responsive-change h5 {
         font-size: 18px;
     }
+    .display-4{
+        font-size: 2.5rem !important;
+        }
+        .display-title{
+            margin: 0 !important;
+        }
+        .title-remove{
+            display: none;
+        }
+        .font-size{
+            font-size: 1.5rem;
+        }
+        
+    .text-disappear{
+        display: none;
+    }
+    .title-size{
+        font-size: 27px;
+    }
 }
 @media(max-width:955px){
     .display-4{
@@ -64,6 +83,7 @@
     .leafff{
         right: 0;
     }
+   
 
 }
 @media (max-width:539px){
@@ -83,10 +103,10 @@
     .box{
         display: none;
     }
-    .responsive-mr{
+    /* .responsive-mr{
         margin: 0 !important;
         width: 95%;
-    }
+    } */
 
 
 }
