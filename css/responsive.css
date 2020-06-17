@@ -42,12 +42,6 @@
     .font-height{
         font-size: 14px;
     }
-   .font-1{
-       font-size: 10px;
-   }
-   .font-2{
-       font-size:9px;
-   }
    .right-mm{
        right: 50px;
    }
@@ -125,6 +119,9 @@
     .image{
         right:0 !important;
     }
+    .font-1 {
+        font-size: 15px;
+    }
    
 
 }
@@ -138,6 +135,17 @@
         max-width: 141px;
         width: 100%;
     
+    }
+    .box-height {
+        max-width: 200px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .font-1 {
+        font-size: 12px;
+    }
+    .font-2{
+        font-size: 14px;
     }
 }
 @media (max-width:539px){
@@ -205,6 +213,9 @@
     }
     .leaf{
         left: 0 !important;
+    }
+    .title-title{
+        margin-left: 3rem !important;
     }
 
 }

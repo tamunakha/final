@@ -67,7 +67,7 @@ nav ul li a:after {transform: translateX(-50%) scaleX(0);-webkit-transform: tran
     margin-top: 35px;
 }
 .size-width{
-    font-size: 15px;
+    font-size:14px;
 }
 .herbs{
     right: 0px;
@@ -76,4 +76,12 @@ nav ul li a:after {transform: translateX(-50%) scaleX(0);-webkit-transform: tran
 .leaf{
     left: 22px;
     bottom:205px;
+}
+.box-height{
+    max-width: 930px;
+    width: 100%;
+    margin: 0 auto;
+}
+ul{
+    padding-inline-start: 30px;
 }
