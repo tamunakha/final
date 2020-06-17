@@ -17,13 +17,13 @@
     .display-4{
         font-size: 2.5rem !important;
         }
-        .display-title{
+    .display-title{
             margin: 0 !important;
         }
-        .title-remove{
+    .title-remove{
             display: none;
         }
-        .font-size{
+    .font-size{
             font-size: 1.5rem;
         }
         
@@ -39,6 +39,21 @@
     .margin-box-size{
         margin-left:0 !important;
     } 
+    .font-height{
+        font-size: 14px;
+    }
+   .font-1{
+       font-size: 10px;
+   }
+   .font-2{
+       font-size:9px;
+   }
+   .right-mm{
+       right: 50px;
+   }
+   .icon-list {
+    font-size: 19px;
+}
 }
 @media(max-width:955px){
     .display-4{
@@ -107,6 +122,9 @@
     .nav-link {
         padding:.5rem 1.2rem;
     }
+    .image{
+        right:0 !important;
+    }
    
 
 }
@@ -114,6 +132,12 @@
     .flex-size{
         display: flex;
         justify-content: center;
+    }
+    .image {
+        right: 0 !important;
+        max-width: 141px;
+        width: 100%;
+    
     }
 }
 @media (max-width:539px){
@@ -147,11 +171,14 @@
     .h3, h3 {
         font-size: 1rem;
     }
+    .image{
+        display: none;
+    }
 }
 
 @media(max-width:470px){
     .burger {
-        width: 95%;
+        width: 90%;
     }
      .box{
         display: none;
@@ -175,6 +202,18 @@
     }
     .lleeaaff {
         right: 0px !important;
+    }
+    .leaf{
+        left: 0 !important;
+    }
+
+}
+@media (max-width:324px){
+    .leaf{
+        bottom: 255px;
+    }
+    .flex-wrapp{
+        flex-flow: row nowrap;
     }
 
 }
