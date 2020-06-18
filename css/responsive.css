@@ -216,6 +216,22 @@
     .flex-wrapp{
         flex-flow: row nowrap;
     }
+    .font-2 {
+        font-size: 10px;
+        }
+        .btn-btn{
+            margin-right: 2rem!important;
+        }
+        .ttext-size{
+            font-size: 11px;
+        }
+        .arroww {
+            font-size: 33px;
+            margin-right: 20px;
+        }
+        .img-size{
+            width: 50% !important;
+        }
 }
 
 @media (max-width:320px){
@@ -225,20 +241,4 @@
    .lleeaaff{
        top:18px;
    }
-   .font-2 {
-    font-size: 10px;
-    }
-    .btn-btn{
-        margin-right: 2rem!important;
-    }
-    .ttext-size{
-        font-size: 11px;
-    }
-    .arroww {
-        font-size: 33px;
-        margin-right: 20px;
-    }
-    .img-size{
-        width: 50% !important;
-    }
 }
