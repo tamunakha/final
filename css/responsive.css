@@ -238,7 +238,10 @@
         font-size: 33px;
         margin-right: 20px;
     }
-    .img-size{
+    /* .img-size{
         width: 50% !important;
+    } */
+    .herbs{
+        display: none;
     }
 }
