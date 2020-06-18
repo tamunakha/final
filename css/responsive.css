@@ -208,6 +208,9 @@
     .title-title{
         margin-left: 3rem !important;
     }
+    .hiden-hiden{
+        display: none;
+    }
 }
 @media (max-width:324px){
     .leaf{
