@@ -25,8 +25,7 @@
         }
     .font-size{
             font-size: 1.5rem;
-        }
-        
+        }   
     .text-disappear{
         display: none;
     }
@@ -40,14 +39,17 @@
         margin-left:0 !important;
     } 
     .font-height{
-        font-size: 14px;
+        font-size: 13px;
     }
    .right-mm{
        right: 50px;
    }
    .icon-list {
     font-size: 19px;
-}
+    }
+    .font-2{
+        font-size: 9px;
+    }
 }
 @media(max-width:955px){
     .display-4{
@@ -61,6 +63,9 @@
     }
     .font-size{
         font-size: 1.5rem;
+    }
+    .burger{
+        width: 100%;
     }
 }
 @media (max-width:767px){
@@ -91,9 +96,6 @@
     .manual-float{
         float: right;
     }
-    .manual-section{
-        margin: 0 !important;
-    }
     .leafff{
         right: 0;
     }
@@ -121,6 +123,9 @@
     .font-1 {
         font-size: 15px;
     }
+    .font-2 {
+        font-size: 14px;
+    }
 }
 @media (max-width:575px){
     .flex-size{
@@ -143,6 +148,9 @@
     }
     .font-2{
         font-size: 12px;
+    }
+    .nav-link {
+        padding: .5rem 1.1rem;
     }
 }
 @media (max-width:539px){
@@ -179,9 +187,6 @@
 }
 
 @media(max-width:470px){
-    .burger {
-        width: 90%;
-    }
      .box{
         display: none;
     }
@@ -193,7 +198,7 @@
     .display-4{
         font-size: 2rem !important;
     }
-    .manual-width{
+    .manual-width {
         width: 58% !important;
     }
     .title-remove-text{
@@ -207,9 +212,6 @@
     }
     .title-title{
         margin-left: 3rem !important;
-    }
-    .hiden-hiden{
-        display: none;
     }
 }
 @media (max-width:324px){
@@ -228,20 +230,12 @@
         .ttext-size{
             font-size: 11px;
         }
-        .arroww {
-            font-size: 33px;
-            margin-right: 20px;
-        }
-        .img-size{
-            width: 50% !important;
-        }
 }
-
 @media (max-width:320px){
-   .bg-image{
-       margin-top: 0;
-   }
-   .lleeaaff{
-       top:18px;
-   }
+    .bg-image{
+        margin-top: 0 !important;
+    }
+    .lleeaaff{
+        top: 18px;
+    }
 }

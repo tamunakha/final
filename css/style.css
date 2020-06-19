@@ -1,10 +1,3 @@
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v7.0.29,
-* Autoprefixer: v9.7.6
-* Browsers: last 4 version
-*/
-
 .size-shrift{margin-top: 100px;}
 .pizza-poto{margin-top: -70px;}
 .left img:hover{-webkit-transform: scale(1.2);-ms-transform: scale(1.2);transform: scale(1.2);-webkit-animation: rotation 0.5s linear;}
@@ -35,7 +28,7 @@ nav ul li a:after {-ms-transform: translateX(-50%) scaleX(0);transform: translat
             box-shadow:10px 14px 18px -6px rgba(0,255,0,0.3);cursor: pointer;color:green;}
 .arrows{
     font-size: 30px;
-    margin-left: 50px;}
+    margin-right: 50px;}
 .arrow:hover {-webkit-transform: scale(1.2);-ms-transform: scale(1.2);transform: scale(1.2);-webkit-animation: rotation 0.5s linear;}
 .opinions text{
     -webkit-transition: all 1.1s ease;
