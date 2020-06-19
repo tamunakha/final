@@ -213,6 +213,23 @@
     .title-title{
         margin-left: 3rem !important;
     }
+    .herbs {
+        right: 0px;
+        bottom: -29px;
+    }
+    .img-size{
+        width: 50% !important;
+    }
+    .btn-btn{
+        margin-right:1rem!important;
+    }
+    .ttext-size{
+        font-size: 13px;
+    }
+    .arroww {
+        flex-flow: row nowrap;
+        font-size: 35px;
+    }
 }
 @media (max-width:324px){
     .leaf{
@@ -223,12 +240,6 @@
     }
     .font-2 {
         font-size: 10px;
-        }
-        .btn-btn{
-            margin-right: 2rem!important;
-        }
-        .ttext-size{
-            font-size: 11px;
         }
 }
 @media (max-width:320px){
